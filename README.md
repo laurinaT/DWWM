@@ -1,10 +1,10 @@
-1. Lexique du vocabulaire du web  
+# 1. Lexique du vocabulaire du web  
 
 Bienvenue sur ce fichier, très cher professeur, ce devoir aura servi à nous occuper le weekend, alors nous ne savions pas quoi faire...^^  
 
 Plus sérieusement, la création de ce fichier nous permet de reprendre le vocabulaire vu cette semaine,  la révision des commandes du terminal ainsi que la reprise de toutes les manipulations de commit, de push et pull entre le serveur local et le serveur distant.</p>
 
-2. Lexique
+## 2. Lexique
 
 ***
 
@@ -35,7 +35,7 @@ Plus sérieusement, la création de ce fichier nous permet de reprendre le vocab
 
 ***
 
-[Laurina Toussaint]<laurinatoussaint@gmail.com>
+[Laurina Toussaint](laurinatoussaint@gmail.com)
 
 
 
