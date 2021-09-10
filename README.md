@@ -33,22 +33,22 @@ Plus sérieusement, la création de ce fichier nous permet de reprendre le vocab
 >
 > - **Javascript**
 >
->Language de programmation frontend, permet d'apporter du dynamisme aux pages internet, de leur apporter des automatisations et des animations.
+>Langage de programmation frontend, permet d'apporter du dynamisme aux pages internet, de leur apporter des automatisations et des animations.
 >
 >
 > - **Php**
 >
->Hyper texte PreProcessor, language backend permettant au serveur de lire des scripts et de les faire interprêter par le navigateur en pages dynamique pour l'ordinateur client.
+>Hyper texte PreProcessor, langage backend permettant au serveur de lire des scripts et de les faire interpréter par le navigateur en pages dynamiques pour l'ordinateur client.
 >
 >
 > - **Intégration**
 >
->C'est le développement final d'une application ou d'un site web part rapport à un cahier des charges afin que ceux-ci puissent convenir au client et être mis en ligne.
+>C'est le développement final d'une application ou d'un site web par rapport à un cahier des charges afin que ceux-ci puissent convenir au client et être mis en ligne.
 >
 >
 > - **Frontend** 
 >
->Le frontend est toute la partie web se trouvant entre l'ordinateur client et le serveur, le front end se focalise principalement sur la création de la page internet, l'aspect graphique ainsi que l'expérience utilisateur.		  
+>Le frontend est toute la partie web se trouvant entre l'ordinateur client et le serveur, le frontend se focalise principalement sur la création de la page internet, l'aspect graphique ainsi que l'expérience utilisateur.		  
 >
 >
 > - **Backend**
