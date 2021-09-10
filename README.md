@@ -4,9 +4,12 @@ Bienvenue sur ce fichier, très cher professeur, ce devoir aura servi à nous oc
 
 Plus sérieusement, la création de ce fichier nous permet de reprendre le vocabulaire vu cette semaine,  la révision des commandes du terminal ainsi que la reprise de toutes les manipulations de commit, de push et pull entre le serveur local et le serveur distant.</p>
 
+***
+
+
 ## 2. Lexique
 
-***
+
 
 > - **Github**
 > 
