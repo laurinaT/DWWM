@@ -1,0 +1,1048 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== 
+  
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+  
+  
+      /* ############################################################       GLOBAL      ############################################################# */
+
+
+     @font-face {
+       font-family: "Quattrocento";
+       src: url("/font/Quattrocento-Regular.ttf");
+     }
+
+     @font-face {
+      font-family: "Quattrocento-Bold";
+      src: url("/font/Quattrocento-Bold.ttf");
+    }
+
+     @font-face {
+      font-family: 'paradise_thoughtsregular';
+      src: url('/font/paradisethoughts-regular-webfont.woff2') format('woff2'),
+           url('/font/paradisethoughts-regular-webfont.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: "AnotherDayV2";
+      src: url("/font/AnotherDayV2.ttf");
+    }
+  
+     * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    html {
+      background-color:#f2e9ec;
+      color: #342433;
+      font-family: Quattrocento;
+      line-height: 1.4;
+      font-size: medium;
+  
+    }
+
+    body {
+      justify-content: center;
+      align-items: center;
+  }
+  
+     h1 {
+      font-family: Quattrocento-Bold;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.1em;
+      color: #b78f99;
+      margin: 0px 0px 2em 0px;
+       }
+  
+     h2{
+      font-family: Quattrocento-Bold;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 0.8rem;
+      margin: 0.8em;
+    }
+  
+  
+    a {
+      text-decoration: none;
+      color: #f2e9ec;
+      font-size: small;
+    }
+
+    .separation {
+      height: 0.1em;
+      background-color: #b78f99;
+      margin: 1em auto 4em auto;
+      max-width: 60%;
+  
+    }
+  
+  
+      /* ############################################################      NAV   ############################################################# */
+     nav { 
+       background-color: #b78f99;
+       color: white;
+       padding: 1em;
+       width: 100%;
+       }
+  
+      nav li{
+          list-style-type: none;
+          margin: 0 0.2em;
+      }
+  
+      nav div { 
+        display: flex;
+        flex-direction: wrap;
+        justify-content:space-between;
+        align-items: center;
+      }
+  
+       
+        
+    /* ############################################################       MENU       ############################################################# */
+        
+    nav div menu ul {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+    
+    }
+  
+     /* ############################################################       SOCIAL MEDIAS      ############################################################# */
+
+     .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+     .container ul {
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+
+    .container ul img {
+      max-height: 1.4em;
+    }
+
+     .container ul li{
+       margin: 0.5em;
+     }
+
+     .logo_reseaux{
+      display: inline-flex;
+    }
+
+    /* ############################################################       HEADER      ############################################################# */
+  
+    header {
+      padding: 2em 1em;
+    }
+
+
+    header img {
+      width: 220px;
+      display: block;
+      margin: auto;
+    }
+  
+   
+  
+    #presentation {
+    
+    }
+
+    #presentation img{
+      width: 100%;
+      height: auto;
+    }
+  
+    /* ############################################################       MAIN      ############################################################# */
+  
+    main {
+      padding:2em 9% 0em 9%;
+      background-color: floralwhite;
+      width: 100%;
+    }
+
+  .duo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f2e9ec;
+    border: floralwhite 2px;
+    min-height: 50em;
+  
+   }
+
+   .reverse {
+    flex-direction: column;
+   }
+  
+   .col {
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    
+   }
+
+   .col img{
+     height: 40em;
+   }
+  
+ 
+  .comment_product {
+    background-color: #b78f99;
+    color:#f2e9ec;
+    line-height: 1.2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: 23em;
+    /*   align-content: space-around; */
+  }
+  
+  .price {
+    color: #e3e8e7;
+    font-family: 'paradise_thoughtsregular';
+    font-size: 3.5em;
+    text-align: center;
+    margin: 0.4em;
+  }
+
+  /* Pour prix foncés */
+  .price_2{
+    color: #b78f99;
+    font-family: 'paradise_thoughtsregular';
+    font-size: 2.3em;
+    text-align: center;
+    margin: 0.1em;
+  }
+  
+  .button_clair {
+    background-color: #f2e9ec;
+    border:#eddad6 1px solid;
+    padding: 0.4em 0.8em;
+    margin: 0.6em;
+    border-radius: 10px;
+  }
+  
+  .button_clair a{
+      color: #b78f99;
+  }
+  
+  .button_clair:hover {
+      background: #b78f99;
+      border:#f2e9ec 1px solid;
+  }
+  
+  .button_clair a:hover{
+      color: #f2e9ec;
+  }
+  
+  .button_dark {
+    background-color: #b78f99;
+    border:#eddad6 1px solid;
+    padding: 0.4em 0.8em;
+    margin-bottom: 1.8em;
+    margin-top: 3em;
+    border-radius: 10px;
+    color: #f2e9ec;
+  }
+  
+  .button_dark a{
+    color: #f2e9ec;
+  }
+  
+  .button_dark:hover {
+    background: #baa4a6;
+    color: #f2e9ec;
+    border:#f2e9ec 1px solid;
+  }
+
+   /* <!-- ---------Produit 1-------- --> */
+
+  #product_1 {
+    background-image: url("../img/headphones.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 23em;
+   }
+  
+    /* <!-- ---------Produit 2-------- --> */
+  
+  #product_2 {
+      background-image: url("../img/notebook.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 23em;
+     }
+    
+  
+  
+  /* <!-- ---------Produit 3-------- --> */
+  
+  #product_3 {
+    background-image: url("../img/claviers.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 23em;
+   }
+  
+   #byebye {
+     background-color: floralwhite;
+     padding: 3em;
+   }
+  
+  /* ############################################################       FOOTER      ############################################################# */
+  
+footer{
+  width: 100%;
+}
+
+  section {
+  background-color: #b78f99 ;
+  height: 10vh;
+  margin: 0px;
+  padding: 0.4em;
+  display: flex;
+  }
+  
+  section a {
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    color: #f2e9ec;
+    margin: auto;
+    text-decoration:none;
+  }
+
+  footer section div li{
+    list-style-type: none;
+    margin: 0 0.2em;
+  }
+
+  footer section div { 
+  display: flex;
+  flex-direction: wrap;
+  justify-content:space-between;
+  align-items: center;
+  }
+
+ /* ############################################################       autres pages     ############################################################# */
+
+ .img {
+  height: auto;
+  margin: 4em auto;
+  border: solid 6px #b78f99;
+
+ }
+
+ .img_2 {
+    height: auto;
+    margin: auto;
+    display: flex;
+ }
+
+
+ .price_2{
+    color: #b78f99;
+ }
+
+ .duo_price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ #container_button {
+ display: flex;
+ justify-content: center;
+ }
+
+ .container_p {
+ padding: 1em;
+ text-align: justify; 
+ }
+ .container_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+/* --------------------- page entreprise ------------------ */
+
+.p {
+  text-align: justify;
+  max-width: 60%;
+  margin: auto;
+}
+
+#video {
+  margin: 3em auto 4em auto;
+  text-align: center;
+}
+/* --------------------- page prestations ------------------ */
+
+.table_style {
+  border-collapse: collapse;
+  min-width: 1em;
+  max-width: 90%;
+  box-shadow: 0 1em 2em #b78f99;
+  margin:4em auto 6em auto;
+  border: 1px solid #b78f99;
+
+}
+
+thead tr {
+  background-color: #b78f99;
+  color:#f2e9ec;
+  text-align: center;
+
+}
+
+th, td{
+  padding: 0.2em 0.7em; 
+}
+
+tbody tr, td, th {
+  border: 1px solid #b78f99;
+}
+
+tbody tr:nth-child(even){
+  background-color: #f2e9ec;
+
+
+}
+
+
+/* ############################################################       FORM    ############################################################# */
+  
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: wrap;
+  padding: 1em 1em 1em 1em;
+  background-color: floralwhite;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+form h1 {
+  font-family: Quattrocento-Bold;
+  font-size:small;
+  margin: 0;
+}
+
+form .left{
+  overflow: hidden;
+}
+form label {
+  font-size: small;
+}
+
+form .separation {
+ width: 80%;
+ height: 2px;
+ background-color: #b78f99; 
+ margin: 1em auto;
+}
+
+form .body_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+form .body_form .box{
+  position: relative;
+  margin-top: 0.7em;
+  display: flex;
+  flex-direction: column;
+}
+
+form .body_form .left .box input {
+  margin-top: 0.7em;
+  padding: 0.2em 0.2em 0.2em 2em;
+  border: solid 1.5px #f2e9ec;
+  border-radius: 5px;
+  outline-color: #b78f99;
+}
+
+form .body_form .right .box input, select {
+  margin: 1em;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  border: solid 1.5px #f2e9ec;
+  border-radius: 5px;
+  outline-color: #b78f99;
+
+}
+ i {
+   position: absolute;
+   left: 8px;
+   top: 40px;
+   color: #b78f99;
+   display: none;
+ }
+
+ form .body_form .right{
+   margin-left: 0em;
+   overflow: hidden;
+ }
+
+ #box_textarea {
+   display: flex;
+   flex-direction: column;
+   margin-left: 1em;
+   height: 90%;
+ }
+
+ #box_textarea textarea {
+   margin-top: 0.7em;
+   border: solid 1.5px #f2e9ec;
+   border-radius: 5px;
+   outline-color: #b78f99;
+   padding: 1em;
+   resize: none;
+   height: 36vh;
+ }
+
+  .footer_form{
+   text-align: center;
+ }
+
+ .footer_form button{
+   margin-top: 2em;
+   cursor: pointer;
+  transition: transform 0.5s;
+ }
+
+ .footer_form button:hover{
+  transform: scale(1.08);
+ }
+
+ input:invalid {
+  border: 2px dashed red;
+  }
+
+
+
+@media screen and (min-width: 450px) {
+  html {
+    background-color: #f2e9ec;
+    background-image: url(/img/essai_fond.png);
+  }
+  
+  
+  p {
+    margin: 0.9em;
+    font-size: medium;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f2e9ec;
+    font-size: medium;
+  }
+
+  h1 {
+   font-family: Quattrocento-Bold;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 1em;
+   line-height: 1.1em;
+   color: #b78f99;
+   margin: 3em 0px;
+    }
+
+  h2{
+   font-family: Quattrocento-Bold;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 1.2rem;
+   margin: 0.8em;
+ }
+/* ------------------------- products ---------------------- */
+.duo {
+  flex-direction: row;
+  min-height: auto;
+}
+.reverse {
+  flex-direction: row-reverse;
+ }
+
+ .col {
+  flex: 1;
+  display: flex;
+  height: auto;
+  }
+
+ .comment_product {
+  font-size: medium;
+  }
+
+  header img {
+    width: 330px;
+    display: block;
+    margin: 4em auto;
+  }
+  .logo_reseaux{
+    display: inline-flex;
+  }
+
+/* ############################ FORM ############################ */
+
+  form label {
+    font-size: medium;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+  main {
+    width: 65%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f2e9ec;
+    font-size: large;
+}
+  
+  
+  #presentation p {
+    margin: 0.9em;
+    font-size: medium;
+    max-width: 40%;
+    margin: auto;
+  }
+
+  h1 {
+   font-family: Quattrocento-Bold;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 1em;
+   line-height: 1.1em;
+   color: #b78f99;
+   margin: 0px 0px 2em 0px;
+    }
+
+  h2{
+   font-family: Quattrocento-Bold;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 1.2rem;
+   margin: 0.8em;
+ }
+
+ 
+
+  header {
+    max-width: 50%;
+  }
+
+
+  /* ####################################### INDEX ################################ */
+
+  #product_1 {
+    height: 23em;
+  }
+
+  #product_2 {
+    height: 23em;
+  }
+
+  #product_3 {
+    height: 23em;
+  }
+
+  /* ------- articles------- */
+
+
+  .duo {
+    max-height: 38vh;
+    
+    
+    /* .duo {
+      flex-direction: row;
+      min-height: auto;
+    } */
+  }
+
+  .comment_product {
+    font-size: medium;
+    }
+
+  /* ############################################################       FORM    ############################################################# */
+  
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: wrap;
+  padding: 5em 3em 4em 3em;
+  background-color: floralwhite;
+  margin: 0 auto 5em auto;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+form h1 {
+  font-family: Quattrocento-Bold;
+  font-size: large;
+  margin: 0;
+}
+
+form .separation {
+ width: 100%;
+ height: 2px;
+ background-color: #b78f99; 
+ margin: 1.5em auto;
+}
+
+form .body_form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+form .body_form .box{
+  position: relative;
+  margin-top: 0.7em;
+  display: flex;
+  flex-direction: column;
+}
+
+form .body_form .left .box input {
+  margin-top: 0.7em;
+  padding: 0.2em 0.2em 0.2em 2em;
+  border: solid 1.5px #f2e9ec;
+  border-radius: 5px;
+  outline-color: #b78f99;
+}
+
+form .body_form .right .box input, select {
+  margin: 2em 1.5em 2em 2.5em;
+  padding: 0.2em 0.2em 0.2em 2em;
+  border: solid 1.5px #f2e9ec;
+  border-radius: 5px;
+  outline-color: #b78f99;
+
+}
+ i {
+   position: absolute;
+   left: 8px;
+   top: 40px;
+   color: #b78f99;
+ }
+
+ form label {
+  font-size: medium;
+}
+ form .body_form .right{
+   margin-left: 2em;
+ }
+
+ #box_textarea {
+   display: flex;
+   flex-direction: column;
+   margin-left: 2.7em;
+   height: 90%;
+ }
+
+ #box_textarea textarea {
+   margin-top: 0.7em;
+   border: solid 1.5px #f2e9ec;
+   border-radius: 5px;
+   outline-color: #b78f99;
+   padding: 1em;
+   resize: none;
+   height: 36vh;
+ }
+
+ .footer_form button{
+   margin-top: 2em;
+   cursor: pointer;
+  transition: transform 0.5s;
+ }
+
+ .footer_form button:hover{
+  transform: scale(1.08);
+
+}
+
+
+
+}
+  /* ==========================================================================
+     Helper classes
+     ========================================================================== */
+  
+  /*
+   * Hide visually and from screen readers
+   */
+  
+  .hidden,
+  [hidden] {
+    display: none !important;
+  }
+  
+  /*
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+   */
+  
+  .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+  }
+  
+  /*
+   * Extends the .sr-only class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+  
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+  }
+  
+  /*
+   * Hide visually and from screen readers, but maintain layout
+   */
+  
+  .invisible {
+    visibility: hidden;
+  }
+  
+  /*
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: " ";
+    display: table;
+  }
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  /* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+  
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
+  
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
+  
+  /* ==========================================================================
+     Print styles.
+     Inlined to avoid the additional HTTP request:
+     https://www.phpied.com/delay-loading-your-print-css/
+     ========================================================================== */
+  
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
+  
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
+  
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+      display: table-header-group;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  }
+  
+ 
